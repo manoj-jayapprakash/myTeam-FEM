@@ -1,0 +1,42 @@
+.features {
+  background-color: var(--secondary-sacramento-green);
+  background-image: url(../assets/bg-pattern-home-3.svg);
+  background-repeat: no-repeat;
+  background-position: 160% 0;
+  padding: 2rem 1rem;
+}
+
+.features-main-title {
+  width: 65%;
+  line-height: 1.1;
+  font-size: clamp(2rem, 2.5vw, 3rem);
+  margin: 2rem 0;
+}
+
+.feature {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.feature__title {
+  color: var(--primary-coral);
+  margin-bottom: 1rem;
+  font-size: 1.13rem;
+}
+
+.feature__description {
+  padding: 0 1rem;
+}
+
+@media (min-width: 700px) {
+  .features {
+    background-position: 110% 0;
+  }
+  .feature {
+    text-align: left;
+    width: 70%;
+  }
+  .feature__description {
+    padding: 0;
+  }
+}
