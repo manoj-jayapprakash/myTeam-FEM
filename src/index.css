@@ -1,3 +1,43 @@
-body {
+:root {
+  --primary-green: hsl(186, 98%, 17%);
+  --primary-coral: hsl(0, 87%, 73%);
+  --primary-white: hsl(0, 0%, 100%);
+  --secondary-rapture-blue: hsl(179, 42%, 63%);
+  --secondary-police-blue: hsl(187, 41%, 29%);
+  --secondary-jungle-green: hsl(186, 100%, 14%);
+  --secondary-sacramento-green: hsl(186, 96%, 10%);
+  --secondary-dark-green: hsl(186, 100%, 8%);
+  --primary-font: 'Livvic', sans-serif;
+}
+
+* {
   margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-white);
+  font-size: 0.94rem;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.mx-auto {
+  margin: 0 auto;
 }
