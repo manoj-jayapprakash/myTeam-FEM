@@ -14,6 +14,7 @@
   font-style: normal;
   opacity: 0.6;
   line-height: 1.8;
+  margin: auto 0;
 }
 
 .social {
@@ -21,6 +22,11 @@
   gap: 1rem;
   justify-content: center;
   align-items: center;
+}
+
+.social__icon:hover {
+  cursor: pointer;
+  color: var(--primary-coral);
 }
 
 @media (min-width: 700px) {
@@ -42,6 +48,7 @@
   .footer__address {
     grid-area: address;
     text-align: right;
+    margin: auto 0;
   }
 
   .footer__nav {

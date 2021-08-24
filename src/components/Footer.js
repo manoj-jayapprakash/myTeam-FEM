@@ -25,9 +25,9 @@ export const Footer = () => {
           </address>
         </div>
         <div className="social">
-          <img src={fb} alt="facebook" />
-          <img src={pinterest} alt="pinterest" />
-          <img src={twitter} alt="twitter" />
+          <img src={fb} alt="facebook" className="social__icon" />
+          <img src={pinterest} alt="pinterest" className="social__icon" />
+          <img src={twitter} alt="twitter" className="social__icon" />
         </div>
         <div className="copyrights">Copyright 2020. All Rights Reserved</div>
       </div>
