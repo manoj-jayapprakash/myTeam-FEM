@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.section__header,
+.section__body {
+  width: 50%;
+}

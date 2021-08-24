@@ -4,7 +4,7 @@ import { Features } from '../components/Features';
 export const Home = () => {
   return (
     <>
-      {/* <Hero /> */}
+      <Hero />
       <Features />
     </>
   );

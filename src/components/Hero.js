@@ -3,7 +3,7 @@ import './Hero.css';
 export const Hero = () => {
   return (
     <section className="hero">
-      <div className="hero__content mx-auto">
+      <div className="container hero__content">
         <h1 className="hero__title ">
           Find the best <span className="highlight">talent</span>
         </h1>

@@ -3,7 +3,7 @@
   background-image: url(../assets/bg-pattern-home-3.svg);
   background-repeat: no-repeat;
   background-position: 160% 0;
-  padding: 2rem 1rem;
+  padding: 2rem 0;
 }
 
 .features-main-title {
@@ -32,11 +32,36 @@
   .features {
     background-position: 110% 0;
   }
-  .feature {
-    text-align: left;
-    width: 70%;
+
+  .features__content {
+    width: 80%;
   }
+  .feature {
+    padding: 1rem 0;
+    text-align: left;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .feature__head img {
+    max-width: auto;
+  }
+
   .feature__description {
     padding: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .features {
+    background-position: 105% 100%;
+  }
+  .features__content {
+    display: flex;
+    margin: 4rem auto;
+  }
+  .features-main-title {
+    width: 80%;
   }
 }
