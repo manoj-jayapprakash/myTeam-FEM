@@ -19,6 +19,9 @@ body {
   font-family: var(--primary-font);
   color: var(--primary-white);
   font-size: 0.94rem;
+}
+
+p {
   line-height: 1.8;
 }
 

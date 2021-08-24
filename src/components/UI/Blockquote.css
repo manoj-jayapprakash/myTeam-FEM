@@ -1,0 +1,32 @@
+.quotes {
+  margin: 2rem 0;
+}
+
+.quote {
+  background-image: url(../../assets/icon-quotes.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  padding: 2rem 0 1rem 0;
+}
+
+.citation__name {
+  font-size: 1.13rem;
+  color: var(--secondary-rapture-blue);
+}
+
+.citation__occupation {
+  font-size: 0.81rem;
+}
+
+.citation__image {
+  margin-top: 5px;
+  width: 62px;
+  border: 2px solid var(--secondary-rapture-blue);
+  border-radius: 50%;
+}
+
+@media (min-width: 1000px) {
+  .citation__image {
+    margin-top: 1rem;
+  }
+}

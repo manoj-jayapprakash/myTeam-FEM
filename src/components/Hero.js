@@ -5,7 +5,7 @@ export const Hero = () => {
     <section className="hero">
       <div className="container hero__content">
         <h1 className="hero__title ">
-          Find the best <span className="highlight">talent</span>
+          Find the best <span className="hero__highlight">talent</span>
         </h1>
         <p className="hero__description ">
           Finding the right people and building high performing teams can be

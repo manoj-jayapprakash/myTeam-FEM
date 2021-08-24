@@ -9,7 +9,17 @@
   margin: 0 auto;
 }
 
-/* .section__header,
+.section__header,
 .section__body {
-  width: 50%;
-} */
+  margin: 4rem auto;
+}
+
+.section__title {
+  font-size: clamp(2rem, 2.5vw, 3rem);
+}
+
+@media (min-width: 700px) {
+}
+
+@media (min-width: 1000px) {
+}

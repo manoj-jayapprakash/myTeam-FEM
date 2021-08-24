@@ -35,14 +35,14 @@ export const Testimonials = () => {
   ];
   return (
     <section className="testimonials">
-      <div className="container">
+      <div className="container testimonials__content">
         <div className="section__header">
-          <h2 className="">
-            Delivering real results for top companies. Some of our success
-            stories.
+          <h2 className="section__title testimonials__main-title">
+            Delivering real results for top companies. Some of our
+            <span className="testimonials__highlight"> success stories.</span>
           </h2>
         </div>
-        <div className="section__body">
+        <div className="section__body testimonials__body">
           {reviews.map((review) => (
             <Blockquote
               key={review.id}

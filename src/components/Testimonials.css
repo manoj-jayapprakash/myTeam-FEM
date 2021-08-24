@@ -1,3 +1,32 @@
 .testimonials {
   background-color: var(--secondary-jungle-green);
+  background-image: url(../assets/bg-pattern-home-5.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.testimonials__content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.testimonials__main-title {
+  padding: 1rem 0.5rem;
+}
+
+.testimonials__highlight {
+  color: var(--secondary-rapture-blue);
+}
+
+@media (min-width: 700px) {
+  .testimonials__content {
+    width: 65%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .testimonials__body {
+    display: flex;
+    gap: 1rem;
+  }
 }

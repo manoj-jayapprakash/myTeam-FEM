@@ -8,7 +8,7 @@ export const Features = () => {
     <section className="features">
       <div className="container features__content">
         <div className="section__header">
-          <h2 className="section__title features-main-title">
+          <h2 className="section__title features__main-title">
             Build & manage distributed teams like no one else.
           </h2>
         </div>
