@@ -22,10 +22,6 @@ body {
   line-height: 1.8;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
 a {
   text-decoration: none;
   border: 2px solid transparent;
