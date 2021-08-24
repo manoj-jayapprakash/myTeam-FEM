@@ -2,7 +2,7 @@
   background-color: var(--primary-coral);
   background-image: url(../assets/bg-pattern-home-6-about-5.svg);
   background-repeat: no-repeat;
-  background-position: bottom left;
+  background-position: 0 120%;
 }
 
 .contact-us__content {
@@ -10,6 +10,46 @@
   text-align: center;
 }
 
+.contact-us__header {
+  margin: 2rem 0;
+}
+
+.contact-us__body {
+  margin: 2rem 0 5rem 0;
+}
+
 .contact-us__main-title {
   width: 70%;
+  color: var(--secondary-sacramento-green);
+  padding: 1rem 0;
+}
+
+.contact__cta {
+  color: var(--secondary-sacramento-green);
+  border: 2px solid var(--secondary-sacramento-green);
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  font-weight: 700;
+}
+
+.contact__cta:hover {
+  background-color: var(--secondary-sacramento-green);
+  color: var(--primary-white);
+}
+
+@media (min-width: 700px) {
+  .contact-us__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+  }
+
+  .contact-us__main-title {
+    width: 100%;
+  }
+
+  .contact-us__body {
+    margin: 2rem 0;
+  }
 }
