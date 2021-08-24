@@ -1,0 +1,15 @@
+.contact-us {
+  background-color: var(--primary-coral);
+  background-image: url(../assets/bg-pattern-home-6-about-5.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.contact-us__content {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.contact-us__main-title {
+  width: 70%;
+}
