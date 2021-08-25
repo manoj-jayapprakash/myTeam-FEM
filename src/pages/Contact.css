@@ -1,0 +1,59 @@
+.contact {
+  background-color: var(--primary-green);
+  padding: 2rem;
+}
+
+.contact__content {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.contact__subtitle {
+  color: var(--primary-coral);
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+.contact__questions {
+  margin: 1rem auto;
+  max-width: 32rem;
+}
+
+.contact__question-item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.contact__question-item img {
+  width: 72px;
+}
+
+.contact__question {
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-align: left;
+}
+
+@media (min-width: 700px) {
+  .contact__questions {
+    margin: 1rem auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .contact__content {
+    display: flex;
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .contact__title {
+    margin: auto 0;
+  }
+
+  .contact__form {
+    flex-grow: 1;
+  }
+}

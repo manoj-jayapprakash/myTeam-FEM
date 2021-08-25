@@ -15,7 +15,10 @@
   box-sizing: border-box;
 }
 
-body {
+body,
+button,
+input,
+textarea {
   font-family: var(--primary-font);
   color: var(--primary-white);
   font-size: 0.94rem;

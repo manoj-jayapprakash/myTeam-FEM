@@ -16,7 +16,7 @@ export const Hero = (props) => {
     // </section>
     <section className="hero">
       <div className="container hero__content">
-        <h1 className="hero__title ">{props.title}</h1>
+        <h1 className="hero__title">{props.title}</h1>
         <p className="hero__description ">{props.description}</p>
       </div>
     </section>

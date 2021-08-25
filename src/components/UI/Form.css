@@ -1,0 +1,40 @@
+.form__name,
+.form__email,
+.form__title,
+.form__company,
+.form__message {
+  border: none;
+  border-bottom: 1px solid var(--secondary-rapture-blue);
+  background-color: transparent;
+  display: block;
+  width: 100%;
+  color: var(--primary-white);
+  font-weight: 500;
+  padding: 1rem 0;
+  outline: none;
+}
+
+:is(.form__name, .form__email, .form__title, .form__company, .form__message)::placeholder {
+  color: var(--primary-white);
+  opacity: 0.6;
+}
+
+.form__message {
+  resize: none;
+}
+
+.btn-submit {
+  padding: 0.5em 1.5em;
+  margin-top: 3rem;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--primary-green);
+}
+
+@media (min-width: 700px) {
+  form {
+    width: 70%;
+    margin: 0 auto;
+  }
+}

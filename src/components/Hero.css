@@ -14,7 +14,7 @@
 .hero__title {
   font-size: clamp(2.5rem, 5vw, 6.25rem);
   line-height: 1;
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
 
 .hero__description {
