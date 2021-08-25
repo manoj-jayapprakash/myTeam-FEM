@@ -2,6 +2,8 @@ import './About.css';
 
 import { Hero } from '../components/Hero';
 import { Directors } from '../components/Directors';
+import { Clients } from '../components/Clients';
+import { ContactUs } from '../components/ContactUs';
 import { Footer } from '../components/Footer';
 
 export const About = () => {
@@ -12,6 +14,8 @@ export const About = () => {
     <>
       <Hero title={heroTitle} description={heroDescription} />
       <Directors />
+      <Clients />
+      <ContactUs />
       <Footer />
     </>
   );
