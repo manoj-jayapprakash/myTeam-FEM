@@ -28,7 +28,7 @@
 
 @media (min-width: 700px) {
   .hero__content {
-    width: 65%;
+    width: 100%;
   }
   .hero__title,
   .hero__description {
@@ -43,12 +43,20 @@
       url(../assets/bg-pattern-home-1.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: 70% 100%, 0 50%;
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
   }
   .hero__content {
+    width: 60%;
     text-align: left;
     display: flex;
     align-items: center;
-    min-height: 60vh;
+  }
+
+  .hero__title {
+    align-self: flex-start;
+    padding: 0;
   }
 
   .hero__description {

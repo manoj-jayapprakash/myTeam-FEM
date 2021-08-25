@@ -6,10 +6,14 @@ import { ContactUs } from '../components/ContactUs';
 import { Footer } from '../components/Footer';
 
 export const Home = () => {
+  const heroTitle =
+    'Find the best <span className="hero__highlight">talent</span>';
+  const heroDescription =
+    'Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change that.';
   return (
     <>
       <Header />
-      {/* <Hero />
+      {/* <Hero title={heroTitle} description={heroDescription} />
       <Features />
       <Testimonials />
       <ContactUs />
