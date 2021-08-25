@@ -1,0 +1,10 @@
+.directors {
+  background-color: var(--secondary-jungle-green);
+}
+
+.directors__body {
+  padding: 3em 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 3em;
+}

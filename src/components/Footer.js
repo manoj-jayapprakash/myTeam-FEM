@@ -1,8 +1,11 @@
 import './Footer.css';
 import logo from '../assets/logo.svg';
+
 import fb from '../assets/icon-facebook.svg';
 import pinterest from '../assets/icon-pinterest.svg';
 import twitter from '../assets/icon-twitter.svg';
+
+import { Social } from '../components/UI/Social';
 
 export const Footer = () => {
   return (
@@ -24,11 +27,7 @@ export const Footer = () => {
             <br /> Call Us : 949-833-7432
           </address>
         </div>
-        <div className="social">
-          <img src={fb} alt="facebook" className="social__icon" />
-          <img src={pinterest} alt="pinterest" className="social__icon" />
-          <img src={twitter} alt="twitter" className="social__icon" />
-        </div>
+        <Social domains={[fb, pinterest, twitter]} />
         <div className="copyrights">Copyright 2020. All Rights Reserved</div>
       </div>
     </footer>

@@ -18,6 +18,10 @@
   font-size: clamp(2rem, 2.5vw, 3rem);
 }
 
+.hidden {
+  display: none;
+}
+
 @media (min-width: 700px) {
 }
 

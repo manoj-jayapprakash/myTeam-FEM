@@ -1,0 +1,44 @@
+.director {
+  background-color: var(--secondary-sacramento-green);
+  padding: 3rem;
+  display: grid;
+  place-items: center;
+  position: relative;
+  text-align: center;
+  gap: 1rem;
+}
+
+.director-dark-bg {
+  background-color: var(--secondary-dark-green);
+}
+
+.about__user-image {
+  width: 96px;
+  border-radius: 50%;
+  border: 2px solid var(--secondary-rapture-blue);
+}
+
+.about__profile-name {
+  color: var(--secondary-rapture-blue);
+}
+
+.about__expand {
+  background-color: var(--primary-coral);
+  padding: 1rem;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50%;
+  position: absolute;
+  top: 89%;
+  right: 0;
+  bottom: 0;
+  left: 43%;
+}
+
+.about__expanded-view {
+  /* padding: 1rem 0; */
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 1rem;
+}
