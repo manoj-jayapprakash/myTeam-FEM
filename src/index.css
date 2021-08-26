@@ -31,8 +31,23 @@ p {
 a {
   text-decoration: none;
   border: 2px solid transparent;
+  color: inherit;
 }
 
 button {
   border: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }

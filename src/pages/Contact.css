@@ -1,6 +1,7 @@
 .contact {
   background-color: var(--primary-green);
   padding: 2rem;
+  min-height: 70vh;
 }
 
 .contact__content {
