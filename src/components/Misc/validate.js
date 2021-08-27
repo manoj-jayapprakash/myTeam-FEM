@@ -10,9 +10,10 @@ export const validate = (values) => {
   if (!values.message) {
     errors.message = 'This field is required and cannot be empty.';
   }
-
-  if (!validEmailPattern.test(values.email)) {
+  if (!values.email)
     errors.email = 'This field is required and cannot be empty.';
+  else if (!validEmailPattern.test(values.email)) {
+    errors.email = 'Please enter a valid email address(ex: abc@gmail.com).';
   }
 
   return errors;

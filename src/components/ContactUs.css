@@ -3,6 +3,7 @@
   background-image: url(../assets/bg-pattern-home-6-about-5.svg);
   background-repeat: no-repeat;
   background-position: 0 120%;
+  min-height: 20vh;
 }
 
 .contact-us__content {
