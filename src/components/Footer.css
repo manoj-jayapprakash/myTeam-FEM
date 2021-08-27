@@ -53,6 +53,12 @@
 
   .footer__nav {
     grid-area: nav;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .footer__nav-links:hover {
+    color: var(--primary-coral);
   }
 
   .social {

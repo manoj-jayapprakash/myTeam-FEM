@@ -1,5 +1,7 @@
 import './ContactUs.css';
 
+import { Link } from 'react-router-dom';
+
 export const ContactUs = () => {
   return (
     <section className="contact-us">
@@ -10,9 +12,9 @@ export const ContactUs = () => {
           </h2>
         </div>
         <div className="contact-us__body ">
-          <a href="google.com" className="contact__cta">
+          <Link to="/contact" className="contact__cta">
             contact us
-          </a>
+          </Link>
         </div>
       </div>
     </section>

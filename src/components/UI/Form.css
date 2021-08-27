@@ -33,6 +33,10 @@
   cursor: pointer;
 }
 
+.error {
+  color: var(--primary-coral);
+}
+
 @media (min-width: 700px) {
   form {
     width: 70%;

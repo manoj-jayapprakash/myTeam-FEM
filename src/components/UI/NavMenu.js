@@ -42,7 +42,7 @@ export const NavMenu = (props) => {
             className="nav__link-contact"
             onClick={linkClickHandler}
           >
-            <li className="nav__item nav__cta">contact us</li>
+            <li className="nav__item ">contact us</li>
           </Link>
         </ul>
       </nav>

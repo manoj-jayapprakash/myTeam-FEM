@@ -1,6 +1,6 @@
 import './Footer.css';
 import logo from '../assets/logo.svg';
-
+import { Link } from 'react-router-dom';
 import fb from '../assets/icon-facebook.svg';
 import pinterest from '../assets/icon-pinterest.svg';
 import twitter from '../assets/icon-twitter.svg';
@@ -15,8 +15,12 @@ export const Footer = () => {
           <img src={logo} alt="myTeam logo" />
         </div>
         <div className="footer__nav">
-          <p className="">home</p>
-          <p className="">about</p>
+          <Link to="/" className="footer__nav-links">
+            home
+          </Link>
+          <Link to="/about" className="footer__nav-links">
+            about
+          </Link>
         </div>
         <div className="footer__address">
           <address className="address">

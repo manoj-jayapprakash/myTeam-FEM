@@ -2,13 +2,6 @@
   flex-grow: 1;
 }
 
-.nav__link-contact {
-  border: 2px solid var(--primary-white);
-  padding: 0.5rem 1.5rem;
-  border-radius: 25px;
-  margin-left: auto;
-}
-
 .menu__icon-hamburger {
   background-color: transparent;
 }
@@ -29,6 +22,9 @@
   right: 0;
   width: 70%;
   z-index: 1;
+  background-image: url(../../assets/bg-pattern-about-1-mobile-nav-1.svg);
+  background-repeat: no-repeat;
+  background-position: 150% bottom;
 }
 
 .nav__list-desktop {
@@ -42,9 +38,25 @@
   margin: 1rem auto;
 }
 
-.nav__item,
-.nav__cta {
+.nav__item {
   font-size: 1.25rem;
+}
+
+ul :not(:last-child):hover {
+  color: var(--primary-coral);
+}
+
+.nav__link-contact {
+  border: 2px solid var(--primary-white);
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  margin-left: auto;
+}
+
+.nav__link-contact:hover {
+  background-color: var(--primary-white);
+  color: var(--primary-green);
+  font-weight: 700;
 }
 
 @media (min-width: 700px) {
