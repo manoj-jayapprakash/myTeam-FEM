@@ -4,6 +4,16 @@
   padding: 2rem 0;
 }
 
+.myteam__logo {
+  margin: auto;
+}
+
+.footer__nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
 .footer__content {
   display: grid;
   gap: 1rem;
@@ -30,6 +40,9 @@
 }
 
 @media (min-width: 700px) {
+  .myteam__logo {
+    margin: 0;
+  }
   .footer__content {
     width: 65%;
     grid-template-columns: 1fr 1fr;
@@ -53,8 +66,7 @@
 
   .footer__nav {
     grid-area: nav;
-    display: flex;
-    gap: 1rem;
+    justify-content: flex-start;
   }
 
   .footer__nav-links:hover {

@@ -17,6 +17,10 @@
   margin-bottom: 2rem;
 }
 
+.feature__image {
+  margin: auto;
+}
+
 .feature__title {
   color: var(--primary-coral);
   margin-bottom: 1rem;

@@ -15,7 +15,7 @@ export const Features = () => {
         <div className="section__body">
           <div className="feature">
             <div className="feature__head">
-              <img src={person} alt="" className="" />
+              <img src={person} alt="" className="feature__image" />
             </div>
 
             <div className="feature__content">
@@ -28,7 +28,7 @@ export const Features = () => {
           </div>
           <div className="feature">
             <div className="feature__head">
-              <img src={cog} alt="" className="" />
+              <img src={cog} alt="" className="feature__image" />
             </div>
 
             <div className="feature__content">
@@ -41,7 +41,7 @@ export const Features = () => {
           </div>
           <div className="feature">
             <div className="feature__head">
-              <img src={chart} alt="" className="" />
+              <img src={chart} alt="" className="feature__image" />
             </div>
 
             <div className="feature__content">

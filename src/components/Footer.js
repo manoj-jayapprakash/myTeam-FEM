@@ -12,7 +12,7 @@ export const Footer = () => {
     <footer className="footer">
       <div className="container footer__content">
         <div className="logo">
-          <img src={logo} alt="myTeam logo" />
+          <img src={logo} alt="myTeam logo" className="myteam__logo" />
         </div>
         <div className="footer__nav">
           <Link to="/" className="footer__nav-links">
